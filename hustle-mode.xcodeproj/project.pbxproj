@@ -12,6 +12,7 @@
 		021B188020D0042E00D59868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021B187E20D0042E00D59868 /* Main.storyboard */; };
 		021B188220D0043000D59868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021B188120D0043000D59868 /* Assets.xcassets */; };
 		021B188520D0043000D59868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021B188320D0043000D59868 /* LaunchScreen.storyboard */; };
+		021B188D20D0058900D59868 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 021B188C20D0058900D59868 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		021B188120D0043000D59868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		021B188420D0043000D59868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		021B188620D0043000D59868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021B188C20D0058900D59868 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		021B187920D0042E00D59868 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				021B188C20D0058900D59868 /* hustle-on.wav */,
 				021B187A20D0042E00D59868 /* AppDelegate.swift */,
 				021B187C20D0042E00D59868 /* ViewController.swift */,
 				021B187E20D0042E00D59868 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				021B188D20D0058900D59868 /* hustle-on.wav in Resources */,
 				021B188520D0043000D59868 /* LaunchScreen.storyboard in Resources */,
 				021B188220D0043000D59868 /* Assets.xcassets in Resources */,
 				021B188020D0042E00D59868 /* Main.storyboard in Resources */,
@@ -281,7 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KKJ5C96UR;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KKJ5C96UR;
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
